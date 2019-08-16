@@ -6,3 +6,5 @@ USER root
 RUN echo "root:"$root_password | chpasswd
 
 USER nexus
+
+ENTRYPOINT []
