@@ -1,0 +1,2 @@
+#!/bin/sh
+docker build --build-arg root_password=$root_password -t $IMAGE_NAME .
